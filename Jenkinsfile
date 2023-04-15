@@ -15,7 +15,7 @@ pipeline
        {
             steps
             {
-                echo 'I am testing now'
+                echo 'I am1 testing now'
             }
        }
             stage('Deploy') 
