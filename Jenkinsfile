@@ -26,10 +26,13 @@ pipeline
                 echo 'I am deploy now'
             }
         }
-      
+       stage("Test")
+       {
+            steps
+          {
+                // mvn test
+                sh "mvn test"
+          }
+       }
     }
-   Post
-   {
-      sh "pwd"
-   }   
 }
