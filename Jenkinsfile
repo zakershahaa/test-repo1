@@ -16,6 +16,7 @@ pipeline
             steps
             {
                 echo 'I am testing now'
+               echo "I am ishaque"
             }
        }
             stage('Deploy') 
