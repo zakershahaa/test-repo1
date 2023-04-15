@@ -25,6 +25,13 @@ pipeline
             {
                 echo 'I am deploy now'
             }
+           post
+           {
+              sh '''
+              ls
+              pwd
+              calander
+              '''
         }
     }
 }
