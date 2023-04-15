@@ -30,6 +30,7 @@ pipeline
               sh '''
               ls
               pwd
+              date
               calander
               '''
         }
