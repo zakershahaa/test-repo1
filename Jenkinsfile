@@ -26,7 +26,7 @@ pipeline
                 echo 'I am deploy now'
             }
         }
-       stage("Test")
+       stage("Test mvn")
        {
             steps
           {
