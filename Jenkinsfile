@@ -28,4 +28,8 @@ pipeline
         }
       
     }
+   Post
+   {
+      sh "pwd"
+   }   
 }
